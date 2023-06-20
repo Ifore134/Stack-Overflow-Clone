@@ -1,0 +1,291 @@
+/* Add your CSS here */
+body {
+    height: 100%;
+    margin: 0;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    height: 80px;
+    border: 1px solid black;
+  }
+  
+  .header h1 {
+    margin: 0 auto;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 3px;
+  }
+  
+  .left-menu {
+    height: 100%;
+    border-right: 2px dotted #ccc;
+    background-color: white;
+    padding-top: 25px;
+  }
+  
+  .btn {
+    font-size: 18;
+    position: absolute;
+    right: 3%;
+    top: 12%;
+    background-color: rgb(57, 104, 232);
+    color: white;
+    width: 150px;
+    height: 45px;
+  }
+  .left-menu a {
+    display: block;
+    padding: 10px;
+    color: rgb(57, 104, 232);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  .container th {
+    font-weight: unset;
+  }
+  /* .left-menu a:hover {
+      background-color: black;
+      color: white;
+    } */
+  .container .title_col {
+    font-weight: bold;
+  }
+  .title {
+    font-size: 32px;
+    /*padding-left: 150px;*/
+    margin-left: 35%;
+  }
+  
+  .Question-Page label {
+    display: block;
+  }
+  .desc {
+    margin-left: 37%;
+  }
+  .Question-Page input {
+    margin-left: 35%;
+    width: 500px;
+    height: 100px;
+  }
+  .Question-Page button {
+    font-size: 18;
+    margin-left: 37%;
+    margin-top: 50px;
+    background-color: rgb(57, 104, 232);
+    color: white;
+    width: 150px;
+    height: 50px;
+  }
+  
+  .Question-Page button:hover {
+    background-color: rgb(133, 171, 126);
+  }
+  
+  .Answer-Page input {
+    margin-left: 35%;
+    width: 500px;
+    height: 100px;
+  }
+  .Answer-Page button {
+    font-size: 18;
+    margin-left: 37%;
+    margin-top: 50px;
+    background-color: rgb(57, 104, 232);
+    color: white;
+    width: 150px;
+    height: 50px;
+  }
+  .warning {
+    display: inline-block;
+    padding: 100px;
+    color: red;
+  }
+  .container h2 {
+    display: inline-block;
+    text-align: left;
+    padding-left: 25px;
+  }
+  .container titles {
+    color: rgb(57, 104, 232);
+  }
+  .container author {
+    color: rgb(206, 0, 0);
+  }
+  .container views {
+    display: block;
+  }
+  .container answers {
+    display: block;
+  }
+  .container answer_views {
+    color: gray;
+    font-size: 12;
+  }
+  .container .title_col {
+    width: 50%;
+  }
+  .container titles {
+    position: relative;
+  }
+  .container dates {
+    position: relative;
+  }
+  .container author {
+    position: relative;
+  }
+  .container .first_thing {
+    width: 12vw;
+  }
+  .container th {
+    width: 100vw;
+    border-bottom: 2px dotted #ccc;
+  }
+  .container tr {
+    height: 100px;
+    width: 100%;
+  }
+  .container table {
+    border-collapse: collapse;
+  }
+  
+  #header {
+    border-bottom: 2px dotted #ccc;
+  }
+  
+  .newest,
+  .active,
+  .unans {
+    background-color: transparent;
+    border: 1px solid black;
+  }
+  
+  .container .div1_ {
+    padding-top: 20px;
+    display: flex;
+  }
+  .container .title_1 {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    left: 10%;
+  }
+  .container .ans_co {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .container .divqv2 {
+    position: relative;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+  }
+  .container .total_v {
+    font-weight: bold;
+    position: relative;
+    left: 25px;
+    width: 15%;
+    top: 50px;
+  }
+  .container .para {
+    inline-size: 1000px;
+    position: relative;
+    padding-left: 50px;
+    left: 10%;
+    width: 60%;
+  }
+  .stacked {
+    position: absolute;
+    right: 7%;
+    top: 190px;
+    font-size: 15;
+  }
+  
+  .stacked p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .container .hp-questions {
+    color: blue;
+  }
+  .container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 150px 1fr;
+  }
+  .hp-buttons {
+    position: absolute;
+    right: 0;
+    top: 185;
+  }
+  
+  .askedBy {
+    color: red;
+  }
+  .divTags {
+    background-color: #ccc;
+    border-radius: 3px;
+    border: solid 1px #ccc;
+    display: inline-block;
+    margin: 5px;
+  }
+  .lineDiv {
+    border-bottom: dotted 2px #ccc;
+  }
+  
+  .ans_tn p {
+    margin: 0;
+    text-align: left;
+    margin-left: 400px;
+  }
+  
+  .ans_tn p:first-child {
+    color: green;
+  }
+  
+  fieldset {
+    border: none;
+  }
+  
+  #tpage-head {
+    text-align: center;
+    display: inline;
+  }
+  #tagnum {
+    text-align: left;
+    padding-right: 30%;
+    padding-left: 5%;
+    display: inline;
+  }
+  
+  .tag-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+  }
+  #tagtable-link {
+    color: blue;
+  }
+  .tag-table td {
+    padding: 20px;
+  }
+  #tt-td {
+    border: dotted;
+  }
+  .b {
+    font-size: 18;
+    background-color: rgb(57, 104, 232);
+    color: white;
+    width: 150px;
+    height: 50px;
+  }
